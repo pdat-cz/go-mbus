@@ -514,10 +514,10 @@ func IncludesString(m []string, s string) bool {
 }
 
 func IncludeKey(m map[string]interface{}, s string) bool {
-	for key, _ := range m {
+	for key := range m {
 		if key == s {
+			return true
 		}
-		return true
 	}
 	return false
 }

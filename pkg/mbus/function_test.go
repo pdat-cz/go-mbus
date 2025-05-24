@@ -173,3 +173,12 @@ func TestFrom16intTimePoint(t *testing.T) {
 	}
 
 }
+func TestIncludeKey(t *testing.T) {
+	m := map[string]interface{}{"a": 1, "b": "two"}
+	if !IncludeKey(m, "a") {
+		t.Errorf("IncludeKey() returned false for existing key")
+	}
+	if IncludeKey(m, "c") {
+		t.Errorf("IncludeKey() returned true for non-existing key")
+	}
+}
