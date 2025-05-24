@@ -1,0 +1,116 @@
+{
+    "SlaveInformation": {
+        "Id": "26718590",
+        "Manufacturer": "HYD",
+        "Version": "40",
+        "ProductName": "ABB F95 Typ US770",
+        "Medium": "Heat: Outlet",
+        "AccessNumber": "115",
+        "Status": "50",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "0.074200"
+        },
+        {
+            "id": "2",
+            "Function": "Value during error state",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "1311041.300000"
+        },
+        {
+            "id": "3",
+            "Function": "Value during error state",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "11.041300"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "20.400000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "20.400000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "K",
+            "Value": "0.000000"
+        },
+        {
+            "id": "7",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2012-01-13T16:34:00Z"
+        },
+        {
+            "id": "8",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "9",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2011-04-30T23:59:00Z"
+        },
+        {
+            "id": "10",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2012-04-30T23:59:00Z"
+        },
+        {
+            "id": "11",
+            "Function": "Instantaneous value",
+            "StorageNumber": "2",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "12",
+            "Function": "Instantaneous value",
+            "StorageNumber": "2",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2011-12-31T23:59:00Z"
+        },
+        {
+            "id": "13",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "311590800.000000"
+        }
+    ]
+}

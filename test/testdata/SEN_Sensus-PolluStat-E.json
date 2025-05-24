@@ -1,0 +1,80 @@
+{
+    "SlaveInformation": {
+        "Id": "21265095",
+        "Manufacturer": "SEN",
+        "Version": "14",
+        "ProductName": "Sensus PolluStat E",
+        "Medium": "Heat: Outlet",
+        "AccessNumber": "181",
+        "Status": "10",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "0.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "20.100000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "20.200000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "K",
+            "Value": "0.000000"
+        },
+        {
+            "id": "7",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "21265095.000000"
+        },
+        {
+            "id": "8",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "21265095.000000"
+        },
+        {
+            "id": "9",
+            "Function": "More records follow",
+            "StorageNumber": "0"
+        }
+    ]
+}

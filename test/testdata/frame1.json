@@ -1,0 +1,19 @@
+{
+    "SlaveInformation": {
+        "Id": "10060958",
+        "Manufacturer": "LSE",
+        "Version": "22",
+        "Medium": "Bus/System",
+        "AccessNumber": "123",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Manufacturer specific",
+            "StorageNumber": "0",
+            "Value": "5F 42 01 11 FF FF FF FF 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+        }
+    ]
+}

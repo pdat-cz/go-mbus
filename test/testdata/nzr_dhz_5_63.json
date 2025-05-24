@@ -1,0 +1,61 @@
+{
+    "SlaveInformation": {
+        "Id": "30100608",
+        "Manufacturer": "NZR",
+        "Version": "1",
+        "ProductName": "NZR DHZ 5/63",
+        "Medium": "Electricity",
+        "AccessNumber": "1",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "1274.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "1274.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "237.200000"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "A",
+            "Value": "0.000000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "30100608.000000"
+        },
+        {
+            "id": "6",
+            "Function": "Manufacturer specific",
+            "StorageNumber": "0",
+            "Value": "0E"
+        }
+    ]
+}

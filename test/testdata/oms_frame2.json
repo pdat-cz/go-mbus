@@ -1,0 +1,47 @@
+{
+    "SlaveInformation": {
+        "Id": "92752244",
+        "Manufacturer": "HYD",
+        "Version": "41",
+        "Medium": "Water",
+        "AccessNumber": "31",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "2850.427000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "0.127000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "m^3",
+            "Value": "1445.419000"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2007-12-31"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        }
+    ]
+}

@@ -1,0 +1,247 @@
+{
+    "SlaveInformation": {
+        "Id": "32629",
+        "Manufacturer": "EMU",
+        "Version": "16",
+        "ProductName": "EMU Professional 3/75 M-Bus",
+        "Medium": "Electricity",
+        "AccessNumber": "2",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "32629.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "1364.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "2",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "2",
+            "Unit": "Wh",
+            "Value": "7854.000000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "2",
+            "Device": "2",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "-2.000000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "7",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "8",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "-2.000000"
+        },
+        {
+            "id": "9",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "2",
+            "Unit": "W",
+            "Value": "14.000000"
+        },
+        {
+            "id": "10",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "2",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "11",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "2",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "12",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "2",
+            "Unit": "W",
+            "Value": "14.000000"
+        },
+        {
+            "id": "13",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "225.700000"
+        },
+        {
+            "id": "14",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "0.000000"
+        },
+        {
+            "id": "15",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "0.000000"
+        },
+        {
+            "id": "16",
+            "Function": "Minimum value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "187.400000"
+        },
+        {
+            "id": "17",
+            "Function": "Minimum value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "0.000000"
+        },
+        {
+            "id": "18",
+            "Function": "Minimum value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "0.000000"
+        },
+        {
+            "id": "19",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "241.000000"
+        },
+        {
+            "id": "20",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "0.000000"
+        },
+        {
+            "id": "21",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Unit": "V",
+            "Value": "0.000000"
+        },
+        {
+            "id": "22",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "A",
+            "Value": "-0.066000"
+        },
+        {
+            "id": "23",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "A",
+            "Value": "0.000000"
+        },
+        {
+            "id": "24",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "A",
+            "Value": "0.000000"
+        },
+        {
+            "id": "25",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "A",
+            "Value": "-0.066000"
+        },
+        {
+            "id": "26",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "13.000000"
+        },
+        {
+            "id": "27",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        },
+        {
+            "id": "28",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        },
+        {
+            "id": "29",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "500.000000"
+        },
+        {
+            "id": "30",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "56.000000"
+        },
+        {
+            "id": "31",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        }
+    ]
+}

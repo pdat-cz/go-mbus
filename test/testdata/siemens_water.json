@@ -1,0 +1,79 @@
+{
+    "SlaveInformation": {
+        "Id": "8021382",
+        "Manufacturer": "LSE",
+        "Version": "153",
+        "ProductName": "Siemens WFH21",
+        "Medium": "Warm water (30-90Â°C)",
+        "AccessNumber": "235",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "0.101000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "75427200.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2011-09-14T08:56:00Z"
+        },
+        {
+            "id": "3",
+            "Function": "Value during error state",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2000-00-00"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "8021382.000000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "2173253517322.000000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "WFH21"
+        },
+        {
+            "id": "7",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        },
+        {
+            "id": "8",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "9",
+            "Function": "Manufacturer specific",
+            "StorageNumber": "0",
+            "Value": "37 FD 17 00 00 00 00 00 00 00 00 02 7A 0D 00 02 78 0D 00"
+        }
+    ]
+}

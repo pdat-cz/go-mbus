@@ -1,0 +1,38 @@
+{
+    "SlaveInformation": {
+        "Id": "12345678",
+        "Manufacturer": "PAD",
+        "Version": "1",
+        "Medium": "Water",
+        "AccessNumber": "85",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "12.565000"
+        },
+        {
+            "id": "1",
+            "Function": "Maximum value",
+            "StorageNumber": "5",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3/h",
+            "Value": "0.113000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "2",
+            "Device": "1",
+            "Unit": "Wh",
+            "Value": "218370.000000"
+        }
+    ]
+}

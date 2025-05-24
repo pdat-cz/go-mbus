@@ -1,0 +1,289 @@
+{
+    "SlaveInformation": {
+        "Id": "66660205",
+        "Manufacturer": "LUG",
+        "Version": "7",
+        "ProductName": "Landis \u0026 Gyr Ultraheat T230",
+        "Medium": "Heat: Outlet",
+        "AccessNumber": "1",
+        "Status": "10",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "4.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "8.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "0.000000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "19.500000"
+        },
+        {
+            "id": "7",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "19.700000"
+        },
+        {
+            "id": "8",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "K",
+            "Value": "-0.200000"
+        },
+        {
+            "id": "9",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "66660205.000000"
+        },
+        {
+            "id": "10",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "s",
+            "Value": "420.000000"
+        },
+        {
+            "id": "11",
+            "Function": "Value during error state",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "13568400.000000"
+        },
+        {
+            "id": "12",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "13568400.000000"
+        },
+        {
+            "id": "13",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "0.000000"
+        },
+        {
+            "id": "14",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "5",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "15",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "16",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "17",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "30.700000"
+        },
+        {
+            "id": "18",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "50.700000"
+        },
+        {
+            "id": "19",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "20",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "21",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "41065374.600000"
+        },
+        {
+            "id": "22",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "40953732.300000"
+        },
+        {
+            "id": "23",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "24",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "m^3",
+            "Value": "0.000000"
+        },
+        {
+            "id": "25",
+            "Function": "Value during error state",
+            "StorageNumber": "1",
+            "Unit": "s",
+            "Value": "12488400.000000"
+        },
+        {
+            "id": "26",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "s",
+            "Value": "0.000000"
+        },
+        {
+            "id": "27",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "5",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "28",
+            "Function": "Maximum value",
+            "StorageNumber": "1",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "29",
+            "Function": "Maximum value",
+            "StorageNumber": "1",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "30",
+            "Function": "Maximum value",
+            "StorageNumber": "1",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "30.700000"
+        },
+        {
+            "id": "31",
+            "Function": "Maximum value",
+            "StorageNumber": "1",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "50.700000"
+        },
+        {
+            "id": "32",
+            "Function": "Instantaneous value",
+            "StorageNumber": "510",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2127-01-01T00:00:00Z"
+        },
+        {
+            "id": "33",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2012-01-13T12:04:00Z"
+        },
+        {
+            "id": "34",
+            "Function": "Manufacturer specific",
+            "StorageNumber": "0",
+            "Value": "09 07 00 66 01"
+        }
+    ]
+}

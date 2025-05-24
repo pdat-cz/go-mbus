@@ -1,0 +1,126 @@
+{
+    "SlaveInformation": {
+        "Id": "11155185",
+        "Manufacturer": "ACW",
+        "Version": "10",
+        "ProductName": "Itron CF 51",
+        "Medium": "Heat / Cooling load meter",
+        "AccessNumber": "27",
+        "Status": "10",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "11155185.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "0.000000"
+        },
+        {
+            "id": "3",
+            "Function": "Value during error state",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "99999900.000000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "5",
+            "Function": "Value during error state",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "999.900000"
+        },
+        {
+            "id": "6",
+            "Function": "Value during error state",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "999.900000"
+        },
+        {
+            "id": "7",
+            "Function": "Value during error state",
+            "StorageNumber": "0",
+            "Unit": "K",
+            "Value": "9999.990000"
+        },
+        {
+            "id": "8",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2012-01-24T13:24:00Z"
+        },
+        {
+            "id": "9",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "8985600.000000"
+        },
+        {
+            "id": "10",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "11.000000"
+        },
+        {
+            "id": "11",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "26.000000"
+        },
+        {
+            "id": "12",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "1",
+            "Unit": "m^3",
+            "Value": "321.000000"
+        },
+        {
+            "id": "13",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "2",
+            "Unit": "m^3",
+            "Value": "1.230000"
+        },
+        {
+            "id": "14",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "15",
+            "Function": "Manufacturer specific",
+            "StorageNumber": "0",
+            "Value": "03 20"
+        }
+    ]
+}

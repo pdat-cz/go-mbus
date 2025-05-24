@@ -1,0 +1,336 @@
+{
+    "SlaveInformation": {
+        "Id": "1810054",
+        "Manufacturer": "LUG",
+        "Version": "2",
+        "ProductName": "Landis \u0026 Gyr Ultraheat 2WR5",
+        "Medium": "Heat: Outlet",
+        "AccessNumber": "15",
+        "Status": "10",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "4.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "4.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "19969000.000000"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "26492.180000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "0.000000"
+        },
+        {
+            "id": "7",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "0.000000"
+        },
+        {
+            "id": "8",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "K",
+            "Value": "0.000000"
+        },
+        {
+            "id": "9",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "m^3",
+            "Value": "26492.180000"
+        },
+        {
+            "id": "10",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "Wh",
+            "Value": "19969000.000000"
+        },
+        {
+            "id": "11",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "65110054.000000"
+        },
+        {
+            "id": "12",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "s",
+            "Value": "3600.000000"
+        },
+        {
+            "id": "13",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "W",
+            "Value": "31600.000000"
+        },
+        {
+            "id": "14",
+            "Function": "Maximum value",
+            "StorageNumber": "1",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "W",
+            "Value": "31600.000000"
+        },
+        {
+            "id": "15",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "m^3/h",
+            "Value": "8.820000"
+        },
+        {
+            "id": "16",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "44.000000"
+        },
+        {
+            "id": "17",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "40.000000"
+        },
+        {
+            "id": "18",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "252241200.000000"
+        },
+        {
+            "id": "19",
+            "Function": "Value during error state",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "185792400.000000"
+        },
+        {
+            "id": "20",
+            "Function": "Value during error state",
+            "StorageNumber": "1",
+            "Unit": "s",
+            "Value": "172141200.000000"
+        },
+        {
+            "id": "21",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2000-01-01"
+        },
+        {
+            "id": "22",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "2",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "23",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "3",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "24",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "4",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "25",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "2",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "26",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "3",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "27",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "4",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "28",
+            "Function": "Maximum value",
+            "StorageNumber": "2",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "36.000000"
+        },
+        {
+            "id": "29",
+            "Function": "Maximum value",
+            "StorageNumber": "2",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Â°C",
+            "Value": "40.000000"
+        },
+        {
+            "id": "30",
+            "Function": "Maximum value",
+            "StorageNumber": "2",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "31",
+            "Function": "Maximum value",
+            "StorageNumber": "2",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "32",
+            "Function": "Value during error state",
+            "StorageNumber": "2",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "s",
+            "Value": "185274000.000000"
+        },
+        {
+            "id": "33",
+            "Function": "Instantaneous value",
+            "StorageNumber": "2",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "19969000.000000"
+        },
+        {
+            "id": "34",
+            "Function": "Instantaneous value",
+            "StorageNumber": "2",
+            "Tariff": "2",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "35",
+            "Function": "Instantaneous value",
+            "StorageNumber": "2",
+            "Tariff": "3",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "36",
+            "Function": "Instantaneous value",
+            "StorageNumber": "2",
+            "Tariff": "4",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "37",
+            "Function": "Instantaneous value",
+            "StorageNumber": "2",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "26492.180000"
+        },
+        {
+            "id": "38",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2012-06-07T00:38:00Z"
+        },
+        {
+            "id": "39",
+            "Function": "Manufacturer specific",
+            "StorageNumber": "0",
+            "Value": "03 02 00 00 23"
+        }
+    ]
+}

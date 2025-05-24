@@ -1,0 +1,21 @@
+{
+    "SlaveInformation": {
+        "Id": "17677731",
+        "Manufacturer": "KAM",
+        "Version": "1",
+        "ProductName": "Kamstrup 382 (6850-005)",
+        "Medium": "Electricity",
+        "AccessNumber": "0",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "5000.000000"
+        }
+    ]
+}

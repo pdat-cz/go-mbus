@@ -1,0 +1,131 @@
+{
+    "SlaveInformation": {
+        "Id": "78563412",
+        "Manufacturer": "ABB",
+        "Version": "2",
+        "ProductName": "ABB Delta-Meter",
+        "Medium": "Electricity",
+        "AccessNumber": "69",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "2",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "3",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "4",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "2",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "2",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "7",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "2",
+            "Device": "2",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "8",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "3",
+            "Device": "2",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "9",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "4",
+            "Device": "2",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "10",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        },
+        {
+            "id": "11",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "1000000.000000"
+        },
+        {
+            "id": "12",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        },
+        {
+            "id": "13",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        },
+        {
+            "id": "14",
+            "Function": "More records follow",
+            "StorageNumber": "0"
+        }
+    ]
+}

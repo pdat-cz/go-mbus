@@ -1,0 +1,26 @@
+{
+    "SlaveInformation": {
+        "Id": "182007",
+        "Manufacturer": "GWF",
+        "Version": "53",
+        "Medium": "Water",
+        "AccessNumber": "76",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "182007.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "269.000000"
+        }
+    ]
+}

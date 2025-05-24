@@ -1,0 +1,38 @@
+{
+    "SlaveInformation": {
+        "Id": "623702",
+        "Manufacturer": "EMH",
+        "Version": "0",
+        "ProductName": "EMH DIZ",
+        "Medium": "Electricity",
+        "AccessNumber": "7",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "4090.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        }
+    ]
+}

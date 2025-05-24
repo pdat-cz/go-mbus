@@ -1,0 +1,299 @@
+{
+    "SlaveInformation": {
+        "Id": "31425084",
+        "Manufacturer": "ZRM",
+        "Version": "129",
+        "ProductName": "Minol Minocal C2",
+        "Medium": "Heat: Outlet",
+        "AccessNumber": "115",
+        "Status": "27",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "8",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2015-01-01T00:00:00Z"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "8",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "10",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "0.074000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "7",
+            "Function": "Maximum value",
+            "StorageNumber": "1",
+            "Unit": "m^3/h",
+            "Value": "0.043000"
+        },
+        {
+            "id": "8",
+            "Function": "Maximum value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2011-09-01T08:30:00Z"
+        },
+        {
+            "id": "9",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        },
+        {
+            "id": "10",
+            "Function": "Maximum value",
+            "StorageNumber": "2",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "W",
+            "Value": "2000.000000"
+        },
+        {
+            "id": "11",
+            "Function": "Maximum value",
+            "StorageNumber": "2",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2011-09-01T08:30:00Z"
+        },
+        {
+            "id": "12",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "20.710000"
+        },
+        {
+            "id": "13",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "20.380000"
+        },
+        {
+            "id": "14",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2014-03-13T12:45:00Z"
+        },
+        {
+            "id": "15",
+            "Function": "Instantaneous value",
+            "StorageNumber": "32",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2014-03-01"
+        },
+        {
+            "id": "16",
+            "Function": "Instantaneous value",
+            "StorageNumber": "32",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "17",
+            "Function": "Instantaneous value",
+            "StorageNumber": "33",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2014-02-01"
+        },
+        {
+            "id": "18",
+            "Function": "Instantaneous value",
+            "StorageNumber": "33",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "19",
+            "Function": "Instantaneous value",
+            "StorageNumber": "34",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2014-01-01"
+        },
+        {
+            "id": "20",
+            "Function": "Instantaneous value",
+            "StorageNumber": "34",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "21",
+            "Function": "Instantaneous value",
+            "StorageNumber": "35",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-12-01"
+        },
+        {
+            "id": "22",
+            "Function": "Instantaneous value",
+            "StorageNumber": "35",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "23",
+            "Function": "Instantaneous value",
+            "StorageNumber": "36",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-11-01"
+        },
+        {
+            "id": "24",
+            "Function": "Instantaneous value",
+            "StorageNumber": "36",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "25",
+            "Function": "Instantaneous value",
+            "StorageNumber": "37",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-10-01"
+        },
+        {
+            "id": "26",
+            "Function": "Instantaneous value",
+            "StorageNumber": "37",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "27",
+            "Function": "Instantaneous value",
+            "StorageNumber": "38",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-09-01"
+        },
+        {
+            "id": "28",
+            "Function": "Instantaneous value",
+            "StorageNumber": "38",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "29",
+            "Function": "Instantaneous value",
+            "StorageNumber": "39",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-08-01"
+        },
+        {
+            "id": "30",
+            "Function": "Instantaneous value",
+            "StorageNumber": "39",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "3000.000000"
+        },
+        {
+            "id": "31",
+            "Function": "Maximum value",
+            "StorageNumber": "32",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2014-03-01"
+        },
+        {
+            "id": "32",
+            "Function": "Maximum value",
+            "StorageNumber": "32",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3/h",
+            "Value": "0.000000"
+        },
+        {
+            "id": "33",
+            "Function": "Maximum value",
+            "StorageNumber": "32",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "W",
+            "Value": "0.000000"
+        }
+    ]
+}

@@ -1,0 +1,277 @@
+{
+    "SlaveInformation": {
+        "Id": "25776",
+        "Manufacturer": "RAM",
+        "Version": "3",
+        "ProductName": "Rossweiner ETK/ETW Modularis",
+        "Medium": "Water",
+        "AccessNumber": "139",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "10.116000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2013-10-18T21:40:00Z"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2013-09-28"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "m^3",
+            "Value": "8.393000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2014-09-28"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "25776.000000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "2",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-09-30"
+        },
+        {
+            "id": "7",
+            "Function": "Instantaneous value",
+            "StorageNumber": "2",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "8.527000"
+        },
+        {
+            "id": "8",
+            "Function": "Instantaneous value",
+            "StorageNumber": "3",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2012-10-31"
+        },
+        {
+            "id": "9",
+            "Function": "Instantaneous value",
+            "StorageNumber": "3",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "99999.995000"
+        },
+        {
+            "id": "10",
+            "Function": "Instantaneous value",
+            "StorageNumber": "4",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2012-11-30"
+        },
+        {
+            "id": "11",
+            "Function": "Instantaneous value",
+            "StorageNumber": "4",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "99999.993000"
+        },
+        {
+            "id": "12",
+            "Function": "Instantaneous value",
+            "StorageNumber": "5",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2012-12-31"
+        },
+        {
+            "id": "13",
+            "Function": "Instantaneous value",
+            "StorageNumber": "5",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "0.782000"
+        },
+        {
+            "id": "14",
+            "Function": "Instantaneous value",
+            "StorageNumber": "6",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-01-31"
+        },
+        {
+            "id": "15",
+            "Function": "Instantaneous value",
+            "StorageNumber": "6",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "1.929000"
+        },
+        {
+            "id": "16",
+            "Function": "Instantaneous value",
+            "StorageNumber": "7",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-02-28"
+        },
+        {
+            "id": "17",
+            "Function": "Instantaneous value",
+            "StorageNumber": "7",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "3.092000"
+        },
+        {
+            "id": "18",
+            "Function": "Instantaneous value",
+            "StorageNumber": "8",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-03-31"
+        },
+        {
+            "id": "19",
+            "Function": "Instantaneous value",
+            "StorageNumber": "8",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "4.661000"
+        },
+        {
+            "id": "20",
+            "Function": "Instantaneous value",
+            "StorageNumber": "9",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-04-30"
+        },
+        {
+            "id": "21",
+            "Function": "Instantaneous value",
+            "StorageNumber": "9",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "4.767000"
+        },
+        {
+            "id": "22",
+            "Function": "Instantaneous value",
+            "StorageNumber": "10",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-05-31"
+        },
+        {
+            "id": "23",
+            "Function": "Instantaneous value",
+            "StorageNumber": "10",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "5.124000"
+        },
+        {
+            "id": "24",
+            "Function": "Instantaneous value",
+            "StorageNumber": "11",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-06-30"
+        },
+        {
+            "id": "25",
+            "Function": "Instantaneous value",
+            "StorageNumber": "11",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "5.176000"
+        },
+        {
+            "id": "26",
+            "Function": "Instantaneous value",
+            "StorageNumber": "12",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-07-31"
+        },
+        {
+            "id": "27",
+            "Function": "Instantaneous value",
+            "StorageNumber": "12",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "5.246000"
+        },
+        {
+            "id": "28",
+            "Function": "Instantaneous value",
+            "StorageNumber": "13",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "-",
+            "Value": "2013-08-31"
+        },
+        {
+            "id": "29",
+            "Function": "Instantaneous value",
+            "StorageNumber": "13",
+            "Tariff": "0",
+            "Device": "0",
+            "Unit": "m^3",
+            "Value": "5.668000"
+        },
+        {
+            "id": "30",
+            "Function": "Manufacturer specific",
+            "StorageNumber": "0",
+            "Value": "01 00 00"
+        }
+    ]
+}

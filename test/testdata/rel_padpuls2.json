@@ -1,0 +1,55 @@
+{
+    "SlaveInformation": {
+        "Id": "4",
+        "Manufacturer": "REL",
+        "Version": "18",
+        "ProductName": "Relay PadPuls M4",
+        "Medium": "Other",
+        "AccessNumber": "1",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2001-09-20T13:16:00Z"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2000-12-31"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2001-12-31"
+        },
+        {
+            "id": "5",
+            "Function": "Manufacturer specific",
+            "StorageNumber": "0",
+            "Value": "43 01 01 00"
+        }
+    ]
+}

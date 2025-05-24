@@ -1,0 +1,33 @@
+{
+    "SlaveInformation": {
+        "Id": "12345678",
+        "Manufacturer": "ELS",
+        "Version": "51",
+        "Medium": "Gas",
+        "AccessNumber": "42",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "28504.270000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2008-05-31T23:50:00Z"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "0.000000"
+        }
+    ]
+}

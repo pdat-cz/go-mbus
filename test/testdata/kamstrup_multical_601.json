@@ -1,0 +1,228 @@
+{
+    "SlaveInformation": {
+        "Id": "6855817",
+        "Manufacturer": "KAM",
+        "Version": "8",
+        "ProductName": "Kamstrup Multical 601",
+        "Medium": "Heat: Outlet",
+        "AccessNumber": "4",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "6855817.000000"
+        },
+        {
+            "id": "1",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Wh",
+            "Value": "37351000.000000"
+        },
+        {
+            "id": "2",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3",
+            "Value": "561.080000"
+        },
+        {
+            "id": "3",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "s",
+            "Value": "3546000.000000"
+        },
+        {
+            "id": "4",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "101.690000"
+        },
+        {
+            "id": "5",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "Â°C",
+            "Value": "46.160000"
+        },
+        {
+            "id": "6",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "K",
+            "Value": "55.530000"
+        },
+        {
+            "id": "7",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "34700.000000"
+        },
+        {
+            "id": "8",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Unit": "W",
+            "Value": "44800.000000"
+        },
+        {
+            "id": "9",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "0.543000"
+        },
+        {
+            "id": "10",
+            "Function": "Maximum value",
+            "StorageNumber": "0",
+            "Unit": "m^3/h",
+            "Value": "0.628000"
+        },
+        {
+            "id": "11",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "12",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "2",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "13",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "1",
+            "Unit": "m^3",
+            "Value": "0.000000"
+        },
+        {
+            "id": "14",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "2",
+            "Unit": "m^3",
+            "Value": "0.000000"
+        },
+        {
+            "id": "15",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Tariff": "0",
+            "Device": "3",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "16",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Unit": "-",
+            "Value": "2011-01-05T15:26:00Z"
+        },
+        {
+            "id": "17",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "Wh",
+            "Value": "33361000.000000"
+        },
+        {
+            "id": "18",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "m^3",
+            "Value": "500.980000"
+        },
+        {
+            "id": "19",
+            "Function": "Maximum value",
+            "StorageNumber": "1",
+            "Unit": "W",
+            "Value": "55000.000000"
+        },
+        {
+            "id": "20",
+            "Function": "Maximum value",
+            "StorageNumber": "1",
+            "Unit": "m^3/h",
+            "Value": "1.027000"
+        },
+        {
+            "id": "21",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "1",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "22",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "2",
+            "Device": "0",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "23",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "0",
+            "Device": "1",
+            "Unit": "m^3",
+            "Value": "0.000000"
+        },
+        {
+            "id": "24",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "0",
+            "Device": "2",
+            "Unit": "m^3",
+            "Value": "0.000000"
+        },
+        {
+            "id": "25",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Tariff": "0",
+            "Device": "3",
+            "Unit": "Wh",
+            "Value": "0.000000"
+        },
+        {
+            "id": "26",
+            "Function": "Instantaneous value",
+            "StorageNumber": "1",
+            "Unit": "-",
+            "Value": "2010-12-31"
+        },
+        {
+            "id": "27",
+            "Function": "Manufacturer specific",
+            "StorageNumber": "0",
+            "Value": "00 00 00 00 E7 E4 00 00 63 66 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5B C9 A5 02 34 53 00 00 E0 B2 03 00 89 9C 68 00 00 00 00 00 01 00 01 07 07 09 01 03 00 00 00 00 00"
+        }
+    ]
+}

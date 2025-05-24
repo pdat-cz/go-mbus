@@ -1,0 +1,22 @@
+{
+    "SlaveInformation": {
+        "Id": "90919293",
+        "Medium": "Heat",
+        "AccessNumber": "16",
+        "Status": "00"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Actual value",
+            "Unit": "kWh",
+            "Value": "6531"
+        },
+        {
+            "id": "1",
+            "Function": "Actual value",
+            "Unit": "l",
+            "Value": "69"
+        }
+    ]
+}

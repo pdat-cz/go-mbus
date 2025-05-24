@@ -1,0 +1,19 @@
+{
+    "SlaveInformation": {
+        "Id": "12345678",
+        "Manufacturer": "PAD",
+        "Version": "1",
+        "Medium": "Water",
+        "AccessNumber": "19",
+        "Status": "00",
+        "Signature": "0000"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Instantaneous value",
+            "StorageNumber": "0",
+            "Value": "1020304.000000"
+        }
+    ]
+}

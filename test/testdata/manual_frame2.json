@@ -1,0 +1,22 @@
+{
+    "SlaveInformation": {
+        "Id": "12345678",
+        "Medium": "Water",
+        "AccessNumber": "10",
+        "Status": "00"
+    },
+    "DataRecords": [
+        {
+            "id": "0",
+            "Function": "Actual value",
+            "Unit": "l",
+            "Value": "1"
+        },
+        {
+            "id": "1",
+            "Function": "Actual value",
+            "Unit": "reserved but historic",
+            "Value": "135"
+        }
+    ]
+}
