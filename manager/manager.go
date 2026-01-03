@@ -376,6 +376,21 @@ func (m *Manager) readDevice(address int) (mbus.LFrameParsed, error) {
 		return mbus.LFrameParsed{}, errors.New("no response from device")
 	}
 
+	// Check for ACK (single byte response)
+	if len(response) == 1 && response[0] == 0xE5 {
+		return mbus.LFrameParsed{}, errors.New("received ACK instead of data frame")
+	}
+
+	// Validate minimum frame length (Long frame needs at least 9 bytes)
+	if len(response) < 9 {
+		return mbus.LFrameParsed{}, fmt.Errorf("response too short: %d bytes", len(response))
+	}
+
+	// Validate frame start byte
+	if response[0] != 0x68 {
+		return mbus.LFrameParsed{}, fmt.Errorf("invalid frame start byte: 0x%02X", response[0])
+	}
+
 	// Parse the response
 	frame := mbus.NewLFrame(response)
 	return frame.Parse()
