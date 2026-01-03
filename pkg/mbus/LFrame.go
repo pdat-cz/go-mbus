@@ -486,6 +486,11 @@ func (lf *LFrame) Records() (map[int]LFrameRecord, error) {
 	return records, nil
 }
 
+// Parse parses the M-Bus telegram and returns a structured representation.
+func (lf *LFrame) Parse() (LFrameParsed, error) {
+	return lf.parse()
+}
+
 func (lf *LFrame) parse() (LFrameParsed, error) {
 	var err error
 	/// [START] Header
