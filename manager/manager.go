@@ -774,3 +774,296 @@ func containsImpl(s, substr string) bool {
 	}
 	return false
 }
+
+// =============================================================================
+// Write Operations
+// =============================================================================
+
+// WriteResult represents the result of a write operation.
+type WriteResult struct {
+	Success   bool          `json:"success"`
+	Timestamp time.Time     `json:"timestamp"`
+	Latency   time.Duration `json:"latency"`
+	Error     string        `json:"error,omitempty"`
+}
+
+// sendWriteCommand sends a command and expects an ACK response.
+func (m *Manager) sendWriteCommand(command []byte) (bool, error) {
+	m.transport.Lock()
+	defer m.transport.Unlock()
+
+	if !m.transport.IsOpen() {
+		return false, errors.New("transport not open")
+	}
+
+	// Send command and receive response
+	response, err := m.transport.Send(command, m.config.Polling.Timeout)
+	if err != nil {
+		return false, err
+	}
+
+	// Check for ACK (0xE5)
+	if len(response) > 0 && response[0] == 0xE5 {
+		return true, nil
+	}
+
+	return false, errors.New("no ACK received")
+}
+
+// SetDeviceAddress changes the primary address of a device.
+// Uses broadcast address (0xFE), so only one device should be on the bus.
+// For point-to-point connections only.
+func (m *Manager) SetDeviceAddress(newAddress int) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_SET_PRIMARY_ADDRESS(uint(newAddress))
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// SetDeviceAddressFrom changes the primary address of a device from a known current address.
+func (m *Manager) SetDeviceAddressFrom(currentAddress, newAddress int) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_SET_PRIMARY_ADDRESS_FROM(uint(currentAddress), uint(newAddress))
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	// Update internal device state if successful
+	if success {
+		m.mu.Lock()
+		if dev, ok := m.devices[currentAddress]; ok {
+			// Remove old entry and add new one
+			delete(m.devices, currentAddress)
+			dev.config.Address = newAddress
+			m.devices[newAddress] = dev
+			m.scheduler.RemoveDevice(currentAddress)
+			m.scheduler.AddDevice(dev.config)
+		}
+		m.mu.Unlock()
+	}
+
+	return result
+}
+
+// SetDeviceIdentification sets the complete identification of a device.
+// id: identification number (e.g., 0x12345678)
+// manufacturer: manufacturer code (e.g., 0x4024 for PAD)
+// generation: device generation/version
+// medium: device medium type code
+func (m *Manager) SetDeviceIdentification(address int, id uint32, manufacturer uint16, generation, medium byte) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_SET_IDENTIFICATION(uint(address), id, manufacturer, generation, medium)
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// SetBaudrate changes the communication baudrate of a device.
+// After this command, the device will communicate at the new baudrate.
+// Valid rates: 300, 1200, 2400, 4800, 9600, 19200, 38400
+func (m *Manager) SetBaudrate(address int, baudrate int) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	// Map baudrate to CI field
+	var ciField mbus.CIField
+	switch baudrate {
+	case 300:
+		ciField = mbus.CiFieldBaudrate300
+	case 1200:
+		ciField = mbus.CiFieldBaudrate1200
+	case 2400:
+		ciField = mbus.CiFieldBaudrate2400
+	case 4800:
+		ciField = mbus.CiFieldBaudrate4800
+	case 9600:
+		ciField = mbus.CiFieldBaudrate9600
+	case 19200:
+		ciField = mbus.CiFieldBaudrate19200
+	case 38400:
+		ciField = mbus.CiFieldBaudrate38400
+	default:
+		result.Error = fmt.Sprintf("invalid baudrate: %d", baudrate)
+		return result
+	}
+
+	command := mbus.COMMAND_SET_BAUDRATE(uint(address), ciField)
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// ResetDevice sends an application reset to a device.
+// subcode specifies the type of reset:
+//   - 0x00: All application data
+//   - 0x01: User data reset
+//   - 0x02: Simple billing reset
+//   - 0x10: Enhanced reset (all telegrams)
+func (m *Manager) ResetDevice(address int, subcode byte) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_APPLICATION_RESET(uint(address), subcode)
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// SetCounter sets a counter value on a device.
+// dif: Data Information Field (defines data type/length)
+// vif: Value Information Field (defines unit)
+// value: the counter value bytes (LSB first)
+func (m *Manager) SetCounter(address int, dif, vif byte, value []byte) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_SET_COUNTER(uint(address), dif, vif, value)
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// SetCounterBCD8 sets an 8-digit BCD counter value on a device.
+// vif: Value Information Field (defines unit, e.g., 0x06 for 1 kWh)
+// value: the counter value as integer (will be BCD encoded)
+func (m *Manager) SetCounterBCD8(address int, vif byte, value uint32) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_SET_COUNTER_BCD8(uint(address), vif, value)
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// SelectDataRecords configures which data records a device should respond with.
+// records: the selection data including DIF/VIF specifying which records to include
+func (m *Manager) SelectDataRecords(address int, records []byte) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_SELECT_DATA_RECORDS(uint(address), records)
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// SelectAllData requests a device to respond with all available data.
+func (m *Manager) SelectAllData(address int) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_SELECT_ALL_DATA(uint(address))
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// Synchronize sends a synchronize action to all or a specific device.
+// Use address 0xFF for broadcast to all slaves.
+func (m *Manager) Synchronize(address int) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_SYNCHRONIZE(uint(address))
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// SendUserData sends generic user data to a device.
+// ciField: Control Information field (e.g., 0x51 for DATA_SEND)
+// data: the data payload
+func (m *Manager) SendUserData(address int, ciField byte, data []byte) WriteResult {
+	startTime := time.Now()
+	result := WriteResult{Timestamp: startTime}
+
+	command := mbus.COMMAND_SND_UD(uint(address), ciField, data)
+	success, err := m.sendWriteCommand(command)
+
+	result.Success = success
+	result.Latency = time.Since(startTime)
+	if err != nil {
+		result.Error = err.Error()
+	}
+
+	return result
+}
+
+// SendRawFrame sends a raw frame and returns the response.
+// This is for advanced use cases where you need full control.
+func (m *Manager) SendRawFrame(frame []byte) ([]byte, error) {
+	m.transport.Lock()
+	defer m.transport.Unlock()
+
+	if !m.transport.IsOpen() {
+		return nil, errors.New("transport not open")
+	}
+
+	return m.transport.Send(frame, m.config.Polling.Timeout)
+}

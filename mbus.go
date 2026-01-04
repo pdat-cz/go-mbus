@@ -99,3 +99,84 @@ type LFrameRecord struct {
 	Exponent    float64 `yaml:"exponent" json:"exponent"`
 	Description string  `yaml:"description" json:"description"`
 }
+
+// =============================================================================
+// Write Operations
+// =============================================================================
+
+// WriteResult represents the result of a write operation.
+type WriteResult = mbus.WriteResult
+
+// SetAddress sets the primary address of a device (broadcast, point-to-point only).
+// This uses broadcast address 0xFE, so only one device should be connected.
+func SetAddress(port string, newAddress int) WriteResult {
+	return mbus.SetAddress(port, newAddress)
+}
+
+// SetAddressFrom sets the primary address of a device from a known current address.
+func SetAddressFrom(port string, currentAddress, newAddress int) WriteResult {
+	return mbus.SetAddressFrom(port, currentAddress, newAddress)
+}
+
+// SetIdentification sets the complete identification of a device.
+// id: identification number (e.g., 0x12345678)
+// manufacturer: manufacturer code (e.g., 0x4024 for PAD)
+// generation: device generation/version
+// medium: device medium type code
+func SetIdentification(port string, address int, id uint32, manufacturer uint16, generation, medium byte) WriteResult {
+	return mbus.SetIdentification(port, address, id, manufacturer, generation, medium)
+}
+
+// SetBaudrate sets the communication baudrate of a device.
+// Use the CIField baudrate constants from the mbus package.
+func SetBaudrate(port string, address int, baudrate mbus.CIField) WriteResult {
+	return mbus.SetBaudrate(port, address, baudrate)
+}
+
+// Reset sends an application reset to a device.
+// subcode specifies the type of reset:
+//   - 0x00: All application data
+//   - 0x01: User data reset
+//   - 0x02: Simple billing reset
+func Reset(port string, address int, subcode byte) WriteResult {
+	return mbus.Reset(port, address, subcode)
+}
+
+// SetCounter sets a counter value on the device.
+// dif: Data Information Field (defines data type/length)
+// vif: Value Information Field (defines unit)
+// value: the counter value bytes (LSB first)
+func SetCounter(port string, address int, dif, vif byte, value []byte) WriteResult {
+	return mbus.SetCounter(port, address, dif, vif, value)
+}
+
+// SelectDataRecords configures which data records the device should respond with.
+// records: the selection data including DIF/VIF specifying which records to include
+func SelectDataRecords(port string, address int, records []byte) WriteResult {
+	return mbus.SelectDataRecords(port, address, records)
+}
+
+// SendUserData sends generic user data to the device using the DATA_SEND CI field.
+func SendUserData(port string, address int, data []byte) WriteResult {
+	return mbus.SendUserData(port, address, data)
+}
+
+// SendRawCommand sends a raw command and returns the ACK status.
+// Use this for custom commands not covered by other functions.
+func SendRawCommand(port string, address int, ciField byte, data []byte) WriteResult {
+	return mbus.SendRawCommand(port, address, ciField, data)
+}
+
+// CIField type alias for baudrate constants
+type CIField = mbus.CIField
+
+// Baudrate constants for SetBaudrate
+var (
+	CiFieldBaudrate300   = mbus.CiFieldBaudrate300
+	CiFieldBaudrate1200  = mbus.CiFieldBaudrate1200
+	CiFieldBaudrate2400  = mbus.CiFieldBaudrate2400
+	CiFieldBaudrate4800  = mbus.CiFieldBaudrate4800
+	CiFieldBaudrate9600  = mbus.CiFieldBaudrate9600
+	CiFieldBaudrate19200 = mbus.CiFieldBaudrate19200
+	CiFieldBaudrate38400 = mbus.CiFieldBaudrate38400
+)
